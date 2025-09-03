@@ -1,4 +1,4 @@
-import { Figtree, IBM_Plex_Mono, Inter_Tight } from 'next/font/google';
+import { Figtree, Inter_Tight } from 'next/font/google';
 
 const interTight = Inter_Tight({
   subsets: ['latin'],
@@ -14,11 +14,4 @@ const figtree = Figtree({
   weight: ['400', '500', '600'],
 });
 
-const ibmPlexMono = IBM_Plex_Mono({
-  subsets: ['latin'],
-  variable: '--font-ibmPlexMono',
-  display: 'swap',
-  weight: ['500'],
-});
-
-export { figtree, ibmPlexMono, interTight };
+export { figtree, interTight };
