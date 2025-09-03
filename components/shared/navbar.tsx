@@ -41,19 +41,19 @@ const Navbar = () => {
           </figure>
           <div>
             <ul className="flex items-center gap-8">
-              <li className="text-white/50 hover:text-white font-ibmPlexMono text-sm font-normal leading-[21.7px] transition-colors duration-300">
+              <li className="text-white/50 hover:text-white text-sm font-normal leading-[21.7px] transition-colors duration-300">
                 <Link href="#">Services</Link>
               </li>
-              <li className="text-white/50 hover:text-white font-ibmPlexMono text-sm font-normal leading-[21.7px] transition-colors duration-300">
+              <li className="text-white/50 hover:text-white text-sm font-normal leading-[21.7px] transition-colors duration-300">
                 <Link href="#">Case Studies</Link>
               </li>
-              <li className="text-white/50 hover:text-white font-ibmPlexMono text-sm font-normal leading-[21.7px] transition-colors duration-300">
+              <li className="text-white/50 hover:text-white text-sm font-normal leading-[21.7px] transition-colors duration-300">
                 <Link href="#">About</Link>
               </li>
-              <li className="text-white/50 hover:text-white font-ibmPlexMono text-sm font-normal leading-[21.7px] transition-colors duration-300">
+              <li className="text-white/50 hover:text-white text-sm font-normal leading-[21.7px] transition-colors duration-300">
                 <Link href="#">Careers</Link>
               </li>
-              <li className="text-white/50 hover:text-white font-ibmPlexMono text-sm font-normal leading-[21.7px] transition-colors duration-300">
+              <li className="text-white/50 hover:text-white text-sm font-normal leading-[21.7px] transition-colors duration-300">
                 <Link href="#">Blog</Link>
               </li>
             </ul>

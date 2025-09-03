@@ -3,7 +3,6 @@
 @theme {
   /* ===== Fonts ===== */
   --font-figtree: var(--font-figtree);
-  --font-ibmPlexMono: var(--font-ibmPlexMono);
   --font-interTight: var(--font-interTight);
 
   /* ===== Colors ===== */
@@ -90,7 +89,7 @@
 }
 
 @utility btn-nav {
-  @apply px-6 py-4 bg-primary rounded-full font-ibmPlexMono text-base font-medium leading-[22.4px] text-black;
+  @apply px-6 py-4 bg-primary rounded-full text-base font-medium leading-[22.4px] text-black;
 
   span {
     @apply inline-block transition-transform duration-300 ease-in-out first-letter:uppercase;

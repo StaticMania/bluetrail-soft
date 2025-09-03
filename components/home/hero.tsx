@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="max-w-[1290px] mx-auto relative z-10">
         <div className="2xl:pt-[250px] pt-[170px] 2xl:pb-[276px] pb-[170px]">
           <div>
-            <h1 className="hero-text-gradient text-[100px] font-medium leading-[120px] tracking-[-4px] max-w-[1035px] text-white w-full">
+            <h1 className="hero-text-gradient 2xl:text-[100px] text-[84px] font-medium 2xl:leading-[120px] leading-[100px] tracking-[-4px] 2xl:max-w-[1035px] max-w-[950px] text-white w-full">
               More than code. we build trust through craft and commitment.
             </h1>
             <p className="text-2xl font-normal leading-[33.6px] text-white/50 max-w-[630px] w-full mt-11 mb-[90px]">
