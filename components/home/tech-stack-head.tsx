@@ -10,9 +10,7 @@ const TechStackHead = () => {
           <p className="uppercase font-interTight text-sm font-normal leading-[21px] text-white">Stacks</p>
         </div>
         <div className="space-y-2">
-          <h2 className="text-[72px] font-semibold text-white leading-[86.4px] tracking-[-1.44px] font-figtree">
-            Tech Stack
-          </h2>
+          <h2 className="text-heading-2 font-semibold text-white font-figtree">Tech Stack</h2>
           <p className="text-2xl font-normal leading-[33.6px] text-white/50 max-w-[630px] w-full">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
           </p>

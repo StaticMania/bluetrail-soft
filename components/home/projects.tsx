@@ -10,12 +10,12 @@ const Projects = () => {
         <div className="space-y-5 mb-24">
           <div className="flex items-center justify-center gap-x-2.5 py-2 px-6">
             <StarIcon />
-            <p className="uppercase font-interTight text-sm font-normal leading-[21px] text-[#040509]">
+            <p className="uppercase font-interTight text-sm font-normal leading-[21px] text-foreground">
               Proven outcomes
             </p>
           </div>
           <div className="text-center max-w-[750px] w-full mx-auto">
-            <h2 className="text-[72px] font-semibold text-secondary leading-[86.4px] tracking-[-1.44px] font-figtree">
+            <h2 className="text-heading-2 font-semibold text-secondary font-figtree">
               We turn roadblocks into breakthroughs
             </h2>
           </div>

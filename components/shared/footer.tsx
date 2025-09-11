@@ -1,7 +1,7 @@
 import footerGradient from '@/public/images/gradient/gradient-1.png';
 import Image from 'next/image';
 import Link from 'next/link';
-import FooterSlide from './FooterSlide';
+import FooterSlide from './footer-slide';
 
 const links = [
   {

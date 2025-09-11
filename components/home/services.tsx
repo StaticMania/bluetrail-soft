@@ -6,9 +6,7 @@ const Services = () => {
     <section className="pb-[176px]">
       <div className="main-container">
         <div className="flex items-end justify-between mb-[74px]">
-          <h2 className="text-[72px] font-semibold text-secondary leading-[86.4px] tracking-[-1.44px] max-w-[327px] w-full">
-            Industries we serve
-          </h2>
+          <h2 className="text-heading-2 font-semibold text-secondary max-w-[327px] w-full">Industries we serve</h2>
           <Link href="#" className="btn btn-black">
             <span>View All Stories</span>
           </Link>
@@ -25,9 +23,7 @@ const Services = () => {
                     <service.icon />
                   </figure>
                   <div>
-                    <h3 className="text-[28px] font-medium leading-[39.2px] tracking-[-0.56px] text-secondary">
-                      {service.title}
-                    </h3>
+                    <h3 className="text-heading-3 font-medium text-secondary">{service.title}</h3>
                   </div>
                 </div>
               </article>

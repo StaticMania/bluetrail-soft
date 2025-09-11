@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const FooterSlide = () => {
   return (
-    <h2 className="max-w-[858px] mx-auto text-center text-white text-[72px] font-semibold leading-[120%] tracking-[-1.44px]">
+    <h2 className="max-w-[858px] mx-auto text-center text-white text-heading-2 font-semibold">
       Let us scale your
       <figure className="inline-block w-[100px] h-[70px] rounded-full rotate-[15deg] overflow-hidden mx-3">
         <Image src={slide1} alt="slide" className="w-full h-full object-cover overflow-hidden" />

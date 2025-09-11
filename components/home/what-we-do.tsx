@@ -8,10 +8,10 @@ const WhatWeDo = () => {
         <div className="space-y-5 mb-24">
           <div className="flex items-center justify-center gap-x-2.5 py-2 px-6">
             <StarIcon />
-            <p className="uppercase font-interTight text-sm font-normal leading-[21px] text-[#040509]">What we do</p>
+            <p className="uppercase font-interTight text-sm font-normal leading-[21px] text-foreground">What we do</p>
           </div>
           <div className="text-center">
-            <h2 className="text-[72px] font-semibold text-secondary leading-[86.4px] tracking-[-1.44px]">
+            <h2 className="text-heading-2 font-semibold text-secondary">
               Engineered to solve technical challenges. Committed to deliver excellence.
             </h2>
             <p className="text-secondary text-2xl font-normal leading-[33.6px] mb-8 mt-3">
@@ -34,7 +34,7 @@ const WhatWeDo = () => {
                 <figure className="size-[72px] rounded-full bg-primary flex items-center justify-center p-5">
                   <service.icon />
                 </figure>
-                <h3 className="text-secondary text-[28px] font-medium leading-[39.2px] tracking-[-0.56px] max-w-[275px] w-full mx-auto">
+                <h3 className="text-secondary text-heading-3 font-medium max-w-[275px] w-full mx-auto">
                   {service.title}
                 </h3>
               </div>
