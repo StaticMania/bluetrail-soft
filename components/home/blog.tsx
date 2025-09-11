@@ -10,12 +10,10 @@ const Blog = () => {
         <div className="space-y-4 mb-10">
           <div className="flex items-center justify-center gap-x-2.5 py-2 px-6">
             <StarIcon />
-            <p className="uppercase font-interTight text-sm font-normal leading-[21px] text-[#040509]">Our Blog</p>
+            <p className="uppercase font-interTight text-sm font-normal leading-[21px] text-foreground">Our Blog</p>
           </div>
           <div className="text-center">
-            <h2 className="text-[72px] font-semibold text-secondary leading-[86.4px] tracking-[-1.44px] font-figtree">
-              Our Insights
-            </h2>
+            <h2 className="text-heading-2 font-semibold text-secondary font-figtree">Our Insights</h2>
           </div>
         </div>
         <div className="grid grid-cols-12 gap-x-8">
@@ -34,9 +32,7 @@ const Blog = () => {
               </Link>
               <div className="pt-5 pb-8 px-5 space-y-3">
                 <Link href="#" className="block">
-                  <h3 className="text-black font-medium text-[28px] leading-[39.2px] tracking-[-0.56px]">
-                    {blog.title}
-                  </h3>
+                  <h3 className="text-black font-medium text-heading-3">{blog.title}</h3>
                 </Link>
                 <p className="text-black/50 font-normal text-xl leading-[30px]">{blog.description}</p>
               </div>

@@ -1,0 +1,22 @@
+@theme {
+  /* ===== Fonts ===== */
+  --font-figtree: var(--font-figtree);
+  --font-interTight: var(--font-interTight);
+
+  /* ===== Colors ===== */
+  --color-primary: #45e98f;
+  --color-secondary: #242424;
+  --color-background: #f4f3f3;
+  --color-foreground: #040509;
+
+  /* ===== FONT SIZE ===== */
+  --text-heading-1: 6.25rem;
+  --text-heading-1--line-height: 120%;
+  --text-heading-1--tracking: -0.25rem;
+  --text-heading-2: 4.5rem;
+  --text-heading-2--line-height: 120%;
+  --text-heading-2--tracking: -0.09rem;
+  --text-heading-3: 1.75rem;
+  --text-heading-3--line-height: 140%;
+  --text-heading-3--tracking: -0.0325rem;
+}

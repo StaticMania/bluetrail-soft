@@ -1,0 +1,21 @@
+.main-container {
+  @apply 2xl:max-w-[1440px] max-w-[1290px] mx-auto 2xl:px-0 px-5;
+}
+
+body {
+  @apply font-figtree antialiased;
+}
+
+.hero-text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  background-repeat: no-repeat;
+  color: transparent;
+  background-image: linear-gradient(95deg, #fff 1.57%, rgba(255, 255, 255, 0.4) 73.42%);
+}
+
+.underline-hover {
+  @apply relative inline-block overflow-hidden  before:absolute before:bottom-0 before:left-0 before:h-px before:w-full before:origin-right before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:before:origin-left hover:before:scale-x-100 dark:before:bg-white;
+}
