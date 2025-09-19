@@ -87,7 +87,7 @@
   }
   &:hover {
     &::before {
-      @apply size-3 -translate-x-8 opacity-100;
+      @apply size-3 -translate-x-4 opacity-100;
     }
     span {
       @apply -translate-x-2;

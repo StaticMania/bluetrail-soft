@@ -6,16 +6,16 @@ import HeroRevealText from './hero-reveal-text';
 const Hero = () => {
   return (
     <section className="bg-linear-[0deg,#000_0%,#000_100%] relative overflow-x-hidden">
-      <div className="max-w-[1290px] mx-auto relative z-10">
-        <div className="2xl:pt-[250px] pt-[170px] 2xl:pb-[276px] pb-[170px]">
+      <div className="max-w-[1440px] mx-auto relative z-10">
+        <div className="2xl:pt-[200px] pt-[170px] pb-14">
           <div>
-            <h1 className="hero-text-gradient 2xl:text-heading-1 text-[84px] font-medium leading-[100px] tracking-[-4px] 2xl:max-w-[1035px] max-w-[950px] text-white w-full">
+            <h1 className="hero-text-gradient 2xl:text-heading-1 text-[84px] font-medium leading-[100px] tracking-[-4px] 2xl:max-w-[1110px] max-w-[950px] text-white w-full">
               More than code. we build trust through craft and commitment.
             </h1>
             <p className="text-2xl font-normal leading-[33.6px] text-white/50 max-w-[630px] w-full mt-11 mb-[90px]">
               Engineered with integrity. backed by mentorship. Delivered with care.
             </p>
-            <div className="space-x-5">
+            <div className="space-x-5 mb-[103px]">
               <Link href="/" className="btn btn-primary">
                 <span>Schedule a 30-min discovery Call</span>
               </Link>
@@ -23,10 +23,25 @@ const Hero = () => {
                 <span>See our results</span>
               </Link>
             </div>
+
+            <a
+              href="#clients"
+              className="w-16 h-[84px] bg-white/10 rounded-full flex items-center justify-center cursor-pointer group">
+              <svg
+                className="group-hover:translate-y-2 transition-transform duration-300"
+                xmlns="http://www.w3.org/2000/svg"
+                width={20}
+                height={28}
+                viewBox="0 0 20 28"
+                fill="none">
+                <path d="M9.5 1L10 27" stroke="white" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M1 18L10 27L19 18" stroke="white" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </a>
           </div>
         </div>
+        <HeroRevealText />
       </div>
-      <HeroRevealText />
       <figure className="absolute top-0 right-0 max-w-[1012px] w-full h-full max-h-[1372px] z-5">
         <Image src={heroGradient} alt="hero-image" />
       </figure>
