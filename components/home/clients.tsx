@@ -3,7 +3,7 @@ import { clients } from '../../data/clients';
 
 const Clients = () => {
   return (
-    <section className="py-14">
+    <section id="clients" className="py-14">
       <div className="main-container">
         <div className="flex items-center justify-center gap-x-14">
           {clients.map((client) => (

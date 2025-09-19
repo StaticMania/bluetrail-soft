@@ -11,7 +11,7 @@ import WhyUs from '../components/home/why-us';
 
 export default function Home() {
   return (
-    <main className="overflow-x-hidden">
+    <main>
       <Hero />
       <Clients />
       <WhatWeDo />

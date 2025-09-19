@@ -2,3 +2,7 @@
 @import '../styles/button.css';
 @import '../styles/variables.css';
 @import '../styles/utils.css';
+
+html {
+  scroll-behavior: smooth;
+}
